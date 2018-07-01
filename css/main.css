@@ -1,3 +1,100 @@
-/*
- * Estilos de tu proyecto
- */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+	height: 100%;
+	width: 1280px;
+	margin: 0 auto;	
+}
+
+img {
+	vertical-align: middle;
+}
+
+.mont {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.lato {
+	font-family: 'Lato', sans-serif;
+}
+
+#hd-container {
+	display: flex;
+	justify-content: space-around;
+	height: 81px;
+	width: inherit;
+	background-color: #2C3E50;
+	color: #FFFFFF;
+}
+
+.logo {
+  height: inherit;
+  width: 418px;
+  padding-top: 1px;
+  padding-left: 4px;
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.menu {
+  width: 298px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 29px;
+  padding-right: 5px;
+  padding-left: 34px;
+}
+
+#start-container {
+	height: 629px;
+	width: inherit;
+	background-color: green;
+}
+
+#port-container {
+	height: 792px;
+	width: inherit;
+	background-color: blue;
+}
+
+#about-container {
+	height: 515px;
+	width: inherit;
+	background-color: black;
+}
+
+#contact-container {
+	display: flex;
+	justify-content: center;
+	height: 801px;
+	width: inherit;
+}
+
+.contact {
+	display: flex;
+	justify-content: center;
+	height: 800px;
+	width: inherit;
+	background-color: yellow;
+}
+
+#footer-container {
+	height: 305px;
+	width: inherit;
+	background-color: grey;
+}
+
+/*.menu {
+	display: flex;
+}
+*/
