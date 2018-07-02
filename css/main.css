@@ -216,32 +216,61 @@ img {
 
 #contact-container {
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
-  height: 801px;
+  width: inherit;
+  height: 800px;
+  color: #2c3e50;
   background-color: #FFFFFF;
 }
 
-
-.contact {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 800px;
-  width: 400px;
-  background-color: yellow;
-}
-
-.contact h2 {
-
+#contact-container h2 {
+  padding-top: 51px;
+  font-size: 43px;
 }
 
 form {
-  height: 400px;
-  width: 500px;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+  align-items: flex-start;
+  color: #8694A3;
+  font-size: 22px;  
+  line-height: 25px;
+  padding-top: 69px;
+}
+
+.contact-input {
+  border: hidden;
+  border-bottom: 1px solid grey;
+  width: 654px;
+  height: 48px;
+  padding-bottom: 47px;
+  margin-top: 18px;
+  margin-bottom: -5px;
+  background-color: #FFFFFF;
+}
+
+#contact-message {
+  height: 115px;
+}
+
+.form-button {
+  margin-top: 30px;
+  padding: 11px 15px;
+  color: #FFFFFF;
+  border: hidden;
+  font-size: 18px;
+  border-radius: 4px;
+  background-color: #18BC9C;
 }
 
 #footer-container {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between;
+  align-items: center;
   height: 305px;
   width: inherit;
   color: #FFFFFF;
@@ -250,50 +279,67 @@ form {
 
 footer {
   display: flex;
-  justify-content: space-between;
-  /*padding-left: 234px;
-  padding-top: 19px;*/
-  width: 931px;
+  flex-direction: row;
+  text-align: center;
+  line-height: 1.5;
+  width: 982px;
   height: 152px;
+  padding-left: 44px;
 }
 
 footer h2 {
-  margin-bottom: 38px;
+  padding-top: 16px;
+  margin-bottom: 19px;
   font-size: 26px;
+  margin-right: -33px;
+  margin-left: -30px;
 }
 
-.footer-p {
-  text-align: center;
-  font-size: 19px;
+footer p {
+  font-size: 18px;
 }
 
-span {
-  text-align: center;
-  font-size: 
+.social {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;  
 }
-
 
 a {
   text-decoration: none;
   color: #18BC9C;
+  cursor: pointer;
 }
 
 .icon {
   font-size: 43px;
+  color: #FFFFFF !important;]
+  margin-right: 8px;
+  padding-top: 12px;
 }
 
+
 .location {
-  padding-left: 1px;
-  width: 364px;
+  width: 432px;
 }
 
 .web {
-  padding-left: 83px;
-  width: 1000px;
+  padding-left: 40px;
+  width: 687px;
+  margin-right: -2px;
+  margin-left: 61px;
 }
 
 .abt-freelancer {
+  padding-left: 39px;
+}
 
+.copyright {
+  text-align: center;
+  padding-bottom: 9px;
+  font-size: 15px;
 }
 
 
