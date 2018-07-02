@@ -40,6 +40,41 @@ img {
   font-weight: 700;
 }
 
+.separator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+.black {
+  color: #2C3E50;
+}
+
+.icon-star {
+  position: relative;
+  font-size: 32px;
+}
+
+.separator-line {
+  position: absolute;
+  width: 86px;
+  border: 2px solid;
+}
+
+.left-line {
+  top: -2px;
+  left: 41px;
+}
+
+.right-line {
+  top: -2px;
+  right: 41px;
+}
+
 #hd-container {
   display: flex;
   justify-content: space-around;
@@ -87,23 +122,14 @@ img {
 
 .start h2 {
   font-size: 67px;
-  padding-top: 25px;
+  padding-top: 24px;
+  padding-bottom: 42px;
 }
 
 .start p {
   font-size: 21px;
   font-weight: 900;
-  padding-top: 26px;
-}
-
-.separator-container {
-  align-self: center;
-  display: inline-block;
-  color: red;
-  height: 72px;
-  width: 250px;
-  margin-bottom: -27px;
-  padding-bottom: 21px;
+  padding-top: 30px;
 }
 
 .bar {
@@ -115,7 +141,7 @@ img {
 
 #port-container {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
   height: 792px;
   width: inherit;
   background-color: #FFFFFF;
@@ -123,17 +149,20 @@ img {
 
 .portfolio {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center
   height: 706px;
-  width: 1156px;
+  width: 1280px;
 }
 
 .portfolio h2 {
   font-size: 44px;
+  color: #212529;
   font-weight: 900;
-  padding-left: 127px;
-  padding-top: 7px;
+  padding-top: 49px;
+  padding-bottom: 6px;
+  align-self: center;
 }
 
 .portfolio-imgs {
@@ -174,15 +203,15 @@ img {
   text-align: center;
   font-size: 41px;
   padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 #about-text-container {
   display: flex;
-  height: 205px;
+  height: 204px;
   padding-left: 54px;
   width: 781px;
-  padding-top: 45px;
-  margin-bottom: 34px;
+  margin-bottom: -12px;
 }
 
 .about p {
@@ -195,11 +224,12 @@ img {
 
 .paragraph1 {
   padding-right: 99px;
-  padding-top: 13px;
+  margin-top: -19px;
 }
 
 .paragraph2 {
   padding-right: 51px;
+  margin-top: -19px;
 }
 
 .download-button {
@@ -227,6 +257,7 @@ img {
 
 #contact-container h2 {
   padding-top: 51px;
+  padding-bottom: 6px;
   font-size: 43px;
 }
 
@@ -238,7 +269,7 @@ form {
   color: #8694A3;
   font-size: 22px;  
   line-height: 25px;
-  padding-top: 69px;
+  padding-top: 31px;
 }
 
 .contact-input {
@@ -257,7 +288,7 @@ form {
 }
 
 .form-button {
-  margin-top: 30px;
+  margin-top: 22px;
   padding: 11px 15px;
   color: #FFFFFF;
   border: hidden;
